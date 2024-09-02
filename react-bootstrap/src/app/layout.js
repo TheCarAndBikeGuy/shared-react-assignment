@@ -13,9 +13,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Link className="home" href="/">
-          Home
-        </Link>
+      <header>
+          <h3> React Bootstrap </h3>
+          <nav className="navigation">
+            <Link className="home" href="/">Home</Link>
+            <Link className="game" href="/">One</Link>
+            <Link className="game" href="/">Two</Link>
+          </nav>
+        </header>
         {children}
       </body>
     </html>

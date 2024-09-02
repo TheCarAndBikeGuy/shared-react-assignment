@@ -1,10 +1,77 @@
-body {
-  background-color: grey;
+/* Page Layout */
+* {
+  margin: 0;
+  padding: 0;
 }
+
+.html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #15616D;
+}
+
+/* Top Of The Page / Navigation Page */
+
+header {
+  display: flex;
+  width: 98.5vw;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-size: 15px;
+  border: 2px solid #000;
+  background-color: grey;
+  position: relative;
+  height: auto;
+  padding: 10px;
+  height: 100%;
+}
+
+.navigation {
+  display: flex;
+  gap: 30px;
+}
+
+.home {
+  text-decoration: none;
+  color: white;
+}
+
+.home:hover {
+  text-decoration: underline;
+}
+
+.game {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.game:hover {
+  text-decoration: underline;
+}
+
+.review {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.review:hover {
+  text-decoration: underline;
+}
+
+/* Header */
 
 h1 {
   color: white;
+  text-align: center;
+  text-decoration: underline;
 }
+
+/* Off Canvas Component */
 
 .offcanvas {
   height: 100%;
@@ -35,8 +102,13 @@ h1 {
   border-radius: 20px;
 }
 
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
 .closeButton {
-  margin-top: -45px;
+  margin-top: -30px;
   margin-left: 140px;
   cursor: pointer;
   background-color: white;
