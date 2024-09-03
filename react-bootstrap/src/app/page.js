@@ -1,3 +1,4 @@
+import FormExample from "./components/form";
 import OffCanvas from "./components/offcanvas";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <div>
       <h1>Welcome! :)</h1>
       <OffCanvas />
+      <FormExample />
     </div>
   );
 }
