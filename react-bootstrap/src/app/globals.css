@@ -131,3 +131,46 @@ h1 {
   gap: 2px;
   flex-direction: column;
 }
+
+.form {
+  position: absolute;
+  top: 150px;
+  left: 425px;
+  display: flex;
+  padding: 12px 20px;
+  margin: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: black;
+  max-width: 800px;
+  width: fit-content;
+}
+
+
+.name {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.submitBtn {
+  align-items: center;
+  width: 100%;
+  background-color: lightcyan;
+  padding: 20px;
+  width: fit-content;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.submitBtn:hover {
+  background-color: white;
+  color: black;
+}
