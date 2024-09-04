@@ -12,6 +12,11 @@ body {
   background-color: #15616D;
 }
 
+.home-page {
+  text-align: center;
+  color: #eee;
+}
+
 /* Top Of The Page / Navigation Page */
 
 header {
@@ -80,7 +85,7 @@ h1 {
   z-index: 1;
   top: 0;
   left: 0;
-  padding-top: 100px;
+  padding-top: 50px;
   color: white;
 }
 
@@ -97,7 +102,7 @@ h1 {
   cursor: pointer;
   color: white;
   background-color: black;
-  width: 100px;
+  width: 75px;
   height: 50px;
   border-radius: 20px;
 }
@@ -108,7 +113,7 @@ h1 {
 }
 
 .closeButton {
-  margin-top: -30px;
+  margin-top: 15px;
   margin-left: 140px;
   cursor: pointer;
   background-color: white;
@@ -133,10 +138,9 @@ h1 {
 }
 
 .form {
-  position: absolute;
-  top: 150px;
-  left: 425px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 12px 20px;
   margin: 8px;
   border: 1px solid black;
@@ -173,4 +177,39 @@ h1 {
 .submitBtn:hover {
   background-color: white;
   color: black;
+}
+
+.Accordian {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.copyright {
+  position: relative;
+  top: 10px;
+  margin-top: 1000px;
+  background-color: #000000;
+  text-align: center;
+  align-self: center;
+  width: 100vw;
+  height: 100px;
+  color: white;
 }

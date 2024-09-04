@@ -13,12 +13,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      <header>
+        <header>
           <h3> React Bootstrap </h3>
           <nav className="navigation">
-            <Link className="home" href="/">Home</Link>
-            <Link className="game" href="/">One</Link>
-            <Link className="game" href="/">Two</Link>
+            <Link className="home" href={"/"}>
+              Home
+            </Link>
+            <Link className="home" href={"/form"}>
+              Form
+            </Link>
+            {/*  <Link className="home" href={"/carousel"}>Carousel</Link> */}
+            {/*  <Link className="home" href={"/selectmenu"}>Select Menu</Link> */}
           </nav>
         </header>
         {children}
