@@ -89,7 +89,6 @@ h1 {
   color: white;
 }
 
-
 .message {
   padding: 50px 175px 6px 10px;
   background-color: black;
@@ -289,4 +288,8 @@ h1 {
   height: 50px;
   width: 90px;
   margin: 8px;
+}
+.text {
+  text-align: center;
+  color: #eee;
 }
