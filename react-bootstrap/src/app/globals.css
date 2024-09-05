@@ -89,6 +89,7 @@ h1 {
   color: white;
 }
 
+
 .message {
   padding: 50px 175px 6px 10px;
   background-color: black;
@@ -136,6 +137,8 @@ h1 {
   gap: 2px;
   flex-direction: column;
 }
+
+/* Form */
 
 .form {
   display: flex;

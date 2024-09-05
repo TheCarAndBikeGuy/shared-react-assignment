@@ -14,7 +14,7 @@ export default function OffCanvas() {
     <>
       <div className="offcanvas">
         <Button className="button" variant="primary" onClick={handleShow}>
-          Launch
+          Off Canvas
         </Button>
 
         <Offcanvas show={show} onHide={handleClose}>
@@ -28,10 +28,19 @@ export default function OffCanvas() {
             </Button>
             <div className="text">
               <Offcanvas.Title>Home</Offcanvas.Title>
+              <Offcanvas.Title>Form</Offcanvas.Title>
+              <Offcanvas.Title>Select</Offcanvas.Title>
               <br />
-              <Offcanvas.Body>
+              <Offcanvas.Body className="canvas">
                 Shop
                 Cart
+                LogIn
+                SignUp
+                About
+                FAQS
+                Contact
+                Info
+                Delivery
               </Offcanvas.Body>
             </div>
           </div>
