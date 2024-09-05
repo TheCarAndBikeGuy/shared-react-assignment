@@ -1,16 +1,14 @@
 "use client";
 import OffCanvas from "./components/offcanvas";
 import Footer from "./footer/page";
+import Spinner from "./components/spinner";
 
 export default function Home() {
   return (
     <div className="home-page">
       <h1>Welcome! :)</h1>
       <br />
-      <h3>
-        This website is filled with UI/UX from React
-        Bootstrap!
-      </h3>
+      <h3>This website is filled with UI/UX from React Bootstrap!</h3>
       <br />
       <h3>Things you will find here are: </h3>
       <br />
@@ -23,6 +21,7 @@ export default function Home() {
         <li>• Some CSS Styling</li>
         <li>• A Footer</li>
       </ul>
+      <Spinner />
       <OffCanvas />
       <Footer />
     </div>
