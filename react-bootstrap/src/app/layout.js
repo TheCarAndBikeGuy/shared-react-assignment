@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
               Form
             </Link>
             <Link className="home" href={"/select"}>
-              Select Menu
+              Dropdown Menu
             </Link>
           </nav>
         </header>

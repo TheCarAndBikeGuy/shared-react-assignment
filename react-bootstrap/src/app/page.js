@@ -18,7 +18,7 @@ export default function Home() {
         <li>• An Off Canvas</li>
         <li>• A Form</li>
         <li>• Spinners</li>
-        <li>• A Select Menu</li>
+        <li>• A Dropdown Menu</li>
         <li>• Some CSS Styling</li>
         <li>• A Footer</li>
       </ul>
