@@ -2,6 +2,7 @@
 import OffCanvas from "./components/offcanvas";
 import Footer from "./footer/page";
 import Spinner from "./components/spinner";
+import Loader from "./components/loader";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
         <li>• A Footer</li>
       </ul>
       <Spinner />
+      <br />
+      <br />
+      <Loader />
       <OffCanvas />
       <Footer />
     </div>

@@ -1,9 +1,8 @@
 import Spinner from "react-bootstrap/Spinner";
-
-export default function BasicExample() {
+export default function BasicSpinner() {
   return (
     <Spinner animation="border" role="status">
-      <span className="loader"></span>
+      <span className="spinner"> </span>
     </Spinner>
   );
 }
