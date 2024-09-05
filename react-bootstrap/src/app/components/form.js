@@ -29,7 +29,6 @@ export default function FormExample() {
                 placeholder="First Name"
               />
             </Form.Label>
-            {/* <Form.Control.Feedback>Thank You!</Form.Control.Feedback> */}
           </Form.Group>
           <Form.Group as={Col} md="4" controlId="validationCustom02">
             <Form.Label className="name">Last Name : </Form.Label>
@@ -47,7 +46,12 @@ export default function FormExample() {
             controlId="validationCustomUsername"
           >
             <Form.Label className="name">Address : </Form.Label>
-            <Form.Control className="name" type="text" placeholder="Username" required />
+            <Form.Control
+              className="name"
+              type="text"
+              placeholder="Username"
+              required
+            />
           </Form.Group>
         </Row>
         <Row className="mb-3">
@@ -109,3 +113,5 @@ export default function FormExample() {
     </div>
   );
 }
+
+
