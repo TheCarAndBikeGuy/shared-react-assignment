@@ -17,7 +17,7 @@ export default function Home() {
         <li>• A Navigation Bar</li>
         <li>• An Off Canvas</li>
         <li>• A Form</li>
-        <li>• A Carousel</li>
+        <li>• Spinners</li>
         <li>• A Select Menu</li>
         <li>• Some CSS Styling</li>
         <li>• A Footer</li>
