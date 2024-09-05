@@ -7,10 +7,10 @@ function SelectBasicExample() {
       <p>
         {" "}
         A select dropdown menu is a user interface element commonly used in
-        forms to allow users to choose one option from a predefined choices. It
-        displays a compant, clicable box that when clicked; reveals a vertical
-        list of options. Users can scroll through the options and select their
-        preferred choice.
+        forms to allow users to choose one option from predefined choices. It
+        displays a compact, clicable box that when clicked, reveals a vertical
+        list of options. Users can scroll through and select their preferred
+        choice.
       </p>
 
       <Form.Select className="selectmenu">
