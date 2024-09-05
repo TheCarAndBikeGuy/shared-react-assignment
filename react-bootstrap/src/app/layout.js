@@ -22,8 +22,7 @@ export default function RootLayout({ children }) {
             <Link className="home" href={"/form"}>
               Form
             </Link>
-            {/*  <Link className="home" href={"/carousel"}>Carousel</Link> */}
-            {/*  <Link className="home" href={"/selectmenu"}>Select Menu</Link> */}
+             <Link className="home" href={"/select"}>Select Menu</Link>
           </nav>
         </header>
         {children}
